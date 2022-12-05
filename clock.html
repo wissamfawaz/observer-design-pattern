@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+    <div class="clockbox">
+        <div class="item">
+            <div class="tab">
+                <button id="clock">Clock</button>
+            </div> 
+            
+            <div>
+                <hr>
+            </div> 
+            <div>
+                <button id="gosd1">Sound</button>
+            </div> 
+        </div> 
+        <div class="clock"><span id="time">25:00</span><button id="play"><img title="start/restart Pomodoro" id="image" width="40px" src="blackarrow.jpg"></button><button id="pause"><img title="pause" width="50px" src="black pause.png"></button><button id="continue"><img title="continue" width="40px" src="blackarrow.jpg"></button><img id="circleI" src="circle.png"></div>
+        <div class="item"><div id="btn1"> <button id="sb">Short Break</button></div><div id="btn2"> <button id="lb">Long Break</button></div></div>
+        </div>
+        
+            <div class="item"> 
+                <div>
+                    <button id="goclock1"></button>
+                </div> 
+                 
+                <div>
+                    <button id="gosd2"></button>
+                </div> 
+            </div> 
+        </div>
+        <div class="sound">
+            <div class="item">
+                <div>
+                    <button id="goclock2">Clock</button>
+                </div>
+                <div>
+                    <hr>
+                </div> 
+                
+                <div class="tab">
+                    <button id="sound">Sound</button>
+                </div>
+            </div> 
+            <div id="rowS1">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div id="sound1"><button class="song" id="rain">Rain</button></div>
+              <div id="sound2"><button class="song" id="piano">Piano</button></div>
+              <div id="sound3"><button class="song" id="waves">Waves</button></div>
+            </div>
+            <div id="rowS2">
+  
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div id="sound4"><button class="song" id="harp">Harp</button></div>
+                <div id="sound5"><button class="song" id="birds">Birds</button></div>
+                <div id="sound6"><button class="song" id="none">None</button></div>
+            </div>
+        </div>
+    <audio id="audio" autoplay controls loop>
+        <source src=""
+                type="audio/mp3">
+    </audio>
+    <audio id="alarm" autoplay controls>
+        <source src="">
+    </audio>
+
+    <script src="script3.js"></script>
+</body>
+</html>

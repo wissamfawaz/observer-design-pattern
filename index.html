@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studying is fun!</title>
+    
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div><section class="quote"></section></div>
+    <div id="agendapage">
+      <a href="agenda.html">
+        <input type="submit" id="submitpage" value="Go to my Agenda >">
+      </a>
+    </div>
+    <div id="clockpage">
+      <a href="pomo.html">
+        <input type="submit" id="submitpom" value="Go to Pomodoro >">
+      </a>
+    </div>
+    <div id="container">
+      <div id="header">
+        <div id="monthDisplay"></div>
+        <div>
+          <button id="backButton"><</button>
+          <button id="nextButton">></button>
+        </div>
+      </div>
+
+      <div id="weekdays">
+        <div>Sun</div>
+        <div>Mon</div>
+        <div>Tue</div>
+        <div>Wed</div>
+        <div>Thu</div>
+        <div>Fri</div>
+        <div>Sat</div>
+      </div>
+
+      <div id="calendar"></div>
+    </div>
+</div>
+    <div id="newEventModal">
+      <h2>New task(s): <br><br></h2>
+
+      <input id="eventTitleInput" placeholder="Task title" cols="10" rows="1" maxlength="30">
+      <!--<p id="time">Scheduled time: </p>
+      <input type="time" id="eventTime">
+      <input type="checkbox" id="activated"> activate reminder <br> <br>-->
+      <br>
+     <button id="saveButton">Save</button> 
+      <button id="cancelButton">Cancel</button>
+    </div>
+
+    <div id="deleteEventModal">
+      <h2>Task: <br><br></h2>
+
+      <br><p id="eventText"></p>
+
+      <br><br><button id="deleteButton">Delete</button>
+      <button id="closeButton">Close</button>
+    </div>
+
+    <div id="modalBackDrop"></div>
+    
+    <script src="./script.js"></script>
+
+  </body>
+</html>
