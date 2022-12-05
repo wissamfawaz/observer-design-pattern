@@ -22,13 +22,13 @@ The project can be accessed through the following link: https://joy-andraos.gith
 -Pomodoro timer
 -Relaxing sounds
 
-#Languages used:
+# Languages used:
 
 -HTML
 -CSS
 -JavaScript
 
-#Motivation behind it:
+# Motivation behind it:
 
 As engineering students, workload has never been far from us. From assignments to quizzes, exams, and projects, university semesters can be heavy. Therefore, we identified the need for a student organizer, in which students can visualize all their deadlines in an efficient way while being notified about coming deadlines.
 
