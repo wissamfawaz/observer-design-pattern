@@ -10,6 +10,9 @@ This project was made to help its users organize and plan better their deadlines
 # Technologies used
 
 Object-oriented technology is used, where the Observer design pattern was adopted in order to remind users of checking their calendar. This design pattern can create a one-to-many relationships. In the case of this project, whenever a deadline is due soon, the observer who 'observes' the calendar will notify users of their upcoming events.
+# How to access it:
+
+The project can be accessed through the following link: https://joy-andraos.github.io/observer-design-pattern/
 
 # Features:
 
@@ -25,7 +28,7 @@ Object-oriented technology is used, where the Observer design pattern was adopte
 -CSS
 -JavaScript
 
-#Motivation to create it:
+#Motivation behind it:
 
 As engineering students, workload has never been far from us. From assignments to quizzes, exams, and projects, university semesters can be heavy. Therefore, we identified the need for a student organizer, in which students can visualize all their deadlines in an efficient way while being notified about coming deadlines.
 
